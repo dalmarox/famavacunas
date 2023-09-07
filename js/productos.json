@@ -13,7 +13,7 @@
     {
         "id": "2",
         "titulo": "ISTIVAC E INFLUVAC",
-        "imagen": "./imagenes/ANTIGRIPALES TETRAVALENTES.png",
+        "imagen": "./imagenes/adultos/ANTIGRIPALES TETRAVALENTES.png",
         "descripcion":"Vacunas antigripales tetravalentes",
         "categoria":{
             "nombre": "Vacunas para adultos",
@@ -66,7 +66,7 @@
     {
         "id": "9",
         "titulo": "NEUMOVAX-23",
-        "imagen": "./imagenes/Neumovax-23.jpg",
+        "imagen": "./imagenes/adultos/Neumovax-23.jpg",
         "descripcion": "Vacuna antineumocóccica 23",
         "cantidad": 1
     },
@@ -103,7 +103,7 @@
     {
         "id": "13",
         "titulo": "INFLUVAC TRIVALENTE",
-        "imagen": "./imagenes/vacuna-antigripal TRIVALENTE.jpg",
+        "imagen": "./imagenes/adultos/vacuna-antigripal TRIVALENTE.jpg",
         "descripcion": "Vacuna antigripal tres cepas",
         "categoria": {
             "nombre": "Vacunas para adultos",
