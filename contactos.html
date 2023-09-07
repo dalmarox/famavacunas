@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farma Educativa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">FARMA EDUCATIVA</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header>
+                <h1 class="logo">Vacunatorio de Farma Educativa</h1>
+                <a><img src="imagenes/yo .jpg" class="loguito" alt="yo" width="70" height="70">
+            </a>
+
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="../index.html">
+                            <i class="bi bi-arrow-return-left"></i> Seguir buscando las vacunas que te vas a aplicar
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="../carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito</a>
+                    </li>
+                    <li>
+                        <a class="boton-menu botton-contacto active" href="./contactos.html">
+                           <i class="bi bi-person-rolodex"></i>Pide turno aquí</a><a href=""></a>
+                    </li>
+                
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 Dalma Cersósimo</p>
+            </footer>
+        </aside>
+        <main>
+              <label for="start"> COMPLETA TUS DATOS:</label>
+              
+
+            
+
+<form id="form">
+    <h5>Contacto</h5>
+    <div class="line"></div>
+    <fieldset class="form-group input-group">
+      <input type="text" class="form-control required" name="firstname" placeholder="Nombre">
+      <input type="text" class="form-control required" name="lastname" placeholder="Apellido">
+    </fieldset>
+    <fieldset class="form-group">
+      <input type="email" class="form-control required" name="email" placeholder="Email">
+    </fieldset>
+    <div class="description"><span>*</span> Datos necesarios</div>
+    <div class="btn-group">
+      <input type="submit" class="btn btn-primary" value="Enviar">
+      <input type="reset" class="btn" value="Reset">
+      
+    </div>
+  </form>
+
+
+
+<form>
+<div>
+<label for="party">Ingresa el día que quieres vacunarte:</label>
+
+
+<input type="date" id="start" name="trip-start" value="" min="2023-01-01" max="2025-12-31" />
+</div>
+<div>
+    <div class="btn-group">
+        <input type="submit" class="btn btn-primary" value="Reservar">
+        <input type="reset" class="btn" value="Reset">
+        
+      </div>
+
+</form>
+
+          </main>   
+        </body>
+        </html>   
+        
