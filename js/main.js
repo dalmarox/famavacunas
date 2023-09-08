@@ -1,5 +1,4 @@
 let productos = [];
-const usuarios=[];
 
 fetch("./js/productos.json")
     .then(response => response.json())
@@ -43,7 +42,7 @@ function cargarProductos(productosElegidos) {
     })
 
     actualizarBotonesAgregar();
-    
+
 }
 
 
