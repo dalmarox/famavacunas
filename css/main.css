@@ -335,18 +335,6 @@ label {
 /***TURNERO***/
 
 
-#form {
-    border: radius;
-    margin: 30px auto;
-    max-width: 400px;
-    color: var(--clr-white);
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: black 2rem;
-    border-color: black;
-    background-color: rgb(140, 170, 175);
-    
-  }
   .form-control{
     border-radius: black;
   }

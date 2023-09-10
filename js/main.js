@@ -138,11 +138,11 @@ function actualizarNumerito() {
 //TURNERO
 
 function usuarioLogeado(e) {
-    
+
 
 
               
-$('#form').prettyValidate({
+/*$('#form').prettyValidate({
     ajax: true, 
     valid: function() {
       $('#form input[type="submit"]').attr('disabled', true); 
@@ -154,15 +154,15 @@ $('#form').prettyValidate({
 
   $(".account-exists, .account-none").click(function(){
     $(".create-profile, .login-user").toggleClass('activated');
-  });
+  });*/
 
 
 
 }
-let email = document.getElementById("mail");
-let submit = document.getElementById("submit")
-let submit_msg = document.getElementById("submit_msg")
-let nameElement = document.getElementById("name")
+var email = document.getElementById("mail");
+var submit = document.getElementById("submit")
+var submit_msg = document.getElementById("submit_msg")
+var nameElement = document.getElementById("name")
 
 
 email.addEventListener("input", function (event) {
@@ -203,13 +203,5 @@ if ( nameElement.addEventListener ) {
 } else if ( nameElement.attachEvent ) {
   nameElement.attachEvent("onfocus", nameFocus);
   nameElement.attachEvent("onblur", nameBlur);
-
- 
+  
 }
-Swal.fire({
-    position: 'top-end',
-    icon: 'success',
-    title: 'Gracias por registrarse , lo esperamos para la vacunación',
-    showConfirmButton: false,
-    timer: 1500
-  })
