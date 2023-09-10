@@ -364,7 +364,85 @@ label {
 .datepicker {
     margin-bottom: 3rem;
 }
+/*contacto*/
+form{
+ 
+    margin: 0 auto;
+    width: 300px;
+    padding: 1em;
+    border: 1px solid #26A69A;
+    border-radius: .5em;
+    background-color: #26A69A;
+    text-align: center;
+  }
+  
 
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  
+  label{
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    vertical-align: top;
+    color: #000000
+  }
+  
+  input, textarea{
+    
+    font: .75em "Spectral SC";
+    font-weight: 500;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #26A69A;
+    padding: 2px;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000000;
+  }
+  
+  textarea {
+ 
+  vertical-align: top;
+  height: 5em;
+  
+  }
+  
+ 
+  .button {
+ 
+  padding-left: 90px;
+  margin-bottom:50px;
+  }
+  
+  #submit {
+
+  background-color: #C51162;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .75em;
+  font-family: inherit;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  
+  .button p {
+  margin-top:10px;
+  padding-left:5px
+  }
+  
+  button {
+  margin-left: .5em;
+  }
+  
 
 
 
@@ -375,11 +453,31 @@ label {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .form{
+        width:300px;
+    }
+    .textarea{
+        width:200px;
+    }
+    .input{
+        width:200px;
+    }
 }
 
 @media screen and (max-width: 675px) {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr;
+    }
+    .form{
+        
+        width:300;
+    }
+    .input{
+        width:300;
+        
+    }
+    .textarea{
+        width:200;
     }
 }
 
@@ -465,8 +563,15 @@ label {
         flex-wrap: wrap;
         row-gap: 1rem;
     }
-    
-
+    .form{
+        width:300;
+    }
+    .textarea{
+        width:200;
+    }
+    .input{
+        width:200;
+    }
 }
 
 
@@ -474,5 +579,14 @@ label {
 @media screen and (max-width: 400px) {
     .contenedor-productos {
         grid-template-columns: 1fr;
+    }
+    .form{
+        width:300;
+    }
+    .textarea{
+        width:200;
+    }
+    .input{
+        width:200;
     }
 }

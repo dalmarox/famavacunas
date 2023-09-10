@@ -137,6 +137,9 @@ function actualizarNumerito() {
 
 //TURNERO
 
+function usuarioLogeado(e) {
+    
+
 
               
 $('#form').prettyValidate({
@@ -154,6 +157,59 @@ $('#form').prettyValidate({
   });
 
 
-const usuarioLogeado= JSON.parse (sessionStorage.getItem("usuario"))
+
+}
+let email = document.getElementById("mail");
+let submit = document.getElementById("submit")
+let submit_msg = document.getElementById("submit_msg")
+let nameElement = document.getElementById("name")
 
 
+email.addEventListener("input", function (event) {
+  if (email.validity.typeMismatch) {
+
+    email.setCustomValidity("Please input a valid email address.");
+  } else {
+   
+    email.setCustomValidity("");
+  }
+});
+
+submit.addEventListener("click", function(event) {
+    submit_msg.innerHTML = "Gracias pro registrarse";
+    
+    setTimeout(function(){
+    $('#submit_msg').remove();
+    }, 5000);
+});
+
+
+
+function nameFocus(e) {
+  let element = e.target || window.event.srcElement;
+  if ( element.value == "Name" )
+    element.value = "";
+}
+
+function nameBlur(e) {
+  let element = e.target || window.event.srcElement;
+  if ( element.value === "" )
+    element.value = "Name";
+}
+
+if ( nameElement.addEventListener ) {
+  nameElement.addEventListener("focus", nameFocus, false);
+  nameElement.addEventListener("blur", nameBlur, false);
+} else if ( nameElement.attachEvent ) {
+  nameElement.attachEvent("onfocus", nameFocus);
+  nameElement.attachEvent("onblur", nameBlur);
+
+ 
+}
+Swal.fire({
+    position: 'top-end',
+    icon: 'success',
+    title: 'Gracias por registrarse , lo esperamos para la vacunación',
+    showConfirmButton: false,
+    timer: 1500
+  })

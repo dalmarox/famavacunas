@@ -58,31 +58,7 @@
         <main>
               <label for="start"> COMPLETA TUS DATOS:</label>
   
-            
-
-
-            
-
-<form id="form">
-    <h5>Contacto</h5>
-    <div class="line"></div>
-    <fieldset class="form-group input-group">
-      <input type="text" class="form-control required" name="firstname" placeholder="Nombre">
-      <input type="text" class="form-control required" name="lastname" placeholder="Apellido">
-    </fieldset>
-    <fieldset class="form-group">
-      <input type="email" class="form-control required" name="email" placeholder="Email">
-    </fieldset>
-    <div class="description"><span>*</span> Datos necesarios</div>
-    <div class="btn-group">
-      <input type="submit" class="btn btn-primary" value="Enviar">
-      <input type="reset" class="btn" value="Reset">
-      
-    </div>
-  </form>
-
-
-
+    
 <form>
 <div>
 <label for="party">Ingresa el día que quieres vacunarte:</label>
@@ -92,7 +68,7 @@
 </div>
 <div>
     <div class="btn-group">
-        <input type="submit" class="btn btn-primary" value="Reservar día">
+        
         <input type="reset" class="btn" value="Reset">
         
       </div>
@@ -102,10 +78,52 @@
       
 
 
+
+<form name="contactForm" action="/my-form-page" method="post">
+    
+    <div>
+      
+      <label for="Name:">Nombre y Apellido:</label>
+      
+      <input
+             type="text"
+             id="name"
+             name="user_name"
+             value="Nombre y Apellido">
+    </div>
+    <div>
+    
+      <label for="Email:">Email:</label>
+    
+      <input
+             type="email"
+             id="mail"
+             name="user_email"
+             value="Email">
+    </div>
+    <div>
+     
+      <label for="Message:">Consulta:</label>
+     
+      <textarea
+             id="msg"
+           name="user_message">Consulta</textarea>
+    </div>
+    <div class="button">
+      
+      <button type="Submit" id="Submit">Enviar</button>
+      <p id="Submit_Message"></p>
+    </div>  
+
+  </form>  
+</div>
 </form>
 
           </main>
           <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+          <script src="https://cdn.jsdelivr.net/npm/luxon@2.3.0/build/global/luxon.min.js"></script
+          <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+          
 
           <script type="" src="..js/usuario.js"></script>
           <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
