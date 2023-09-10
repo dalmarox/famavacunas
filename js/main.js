@@ -13,7 +13,7 @@ const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
 let botonesAgregar = document.querySelectorAll(".producto-agregar");
 const numerito = document.querySelector("#numerito");
-const cantidad = document.querySelector("#cantidad");
+
 
 botonesCategorias.forEach(boton => boton.addEventListener("click", () => {
     aside.classList.remove("aside-visible");
@@ -127,17 +127,7 @@ function actualizarNumerito() {
     let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }
-restarCantidad();
- const restarCantidad = (nombre, cantidadRestar) => {
-      let storage = localStorage.getItem("productos");
-     let data = JSON.parse(storage);
-    
-     let producto = data.find((item) => item.nombre === nombre);
-      producto.cantidad -= cantidadRestar;
-    
-      localStorage.setItem("carrito", JSON.stringify(data));
-      restarCantidad();
-    };
+
     
 
 
@@ -148,6 +138,7 @@ restarCantidad();
 //TURNERO
 
 
+              
 $('#form').prettyValidate({
     ajax: true, 
     valid: function() {
@@ -165,11 +156,4 @@ $('#form').prettyValidate({
 
 const usuarioLogeado= JSON.parse (sessionStorage.getItem("usuario"))
 
-usuarioLogeado?.admin===true? 
-(btnAgregar.style.display="block"):
-(btnAgregar.style.display="none")
-usuarioLogeado?.admin=== true?
-(btnModificar.style.display= "block") :
-(btnModificar. style.display ="none")
 
-btnAgregar.addEventListener("click", () => generarVistasAgregar())
