@@ -178,7 +178,10 @@ main {
  
     
 }
-
+.img.producto-imagen{
+    width:100%;
+    height:20vh;
+}
 .producto-detalles {
     background-color: transparent;
     color: black;
@@ -215,7 +218,7 @@ main {
 }
 
 
-/** CARRITO **/
+
 
 .contenedor-carrito {
     display: flex;
@@ -350,13 +353,8 @@ label {
   .btn-group{
     border-radius: none;
   }
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
+
+
 .datepicker td, .datepicker th {
     width: 2.5rem;
     height: 2.5rem;
@@ -367,7 +365,6 @@ label {
     margin-bottom: 3rem;
 }
 
-/*
 
 
 

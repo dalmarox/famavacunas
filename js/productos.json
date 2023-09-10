@@ -26,6 +26,10 @@
         "titulo": "BUSTRIX",
         "imagen": "./imagenes/niños/BUSTRIX ACELULAR.jpg",
         "descripcion": "VACUNA COMBINADA DIFTERIA, TÉTANOS Y PERTUSIS ACELULAR",
+        "categoria":{
+            "nombre":"Vacunas para niños y adolescentes",
+             "id":"niños"
+        },
         "cantidad": 9
     },
     {
@@ -33,6 +37,10 @@
         "titulo": "GAMMATET T-250",
         "imagen": "./imagenes/niños/Gammaglobulina-Antitetánica 250.webp",
         "descripcion": "Gammaglobulina antitetánica 250",
+        "categoria":{
+            "nombre":"Vacunas para niños y adolescentes",
+            "id": "niños"
+        },
         "cantidad": 3
     },
     {
@@ -40,6 +48,10 @@
         "titulo": "GARDASIL",
         "imagen": "./imagenes/niños/Gardasil.jpg",
         "descripcion": "Vacuna monovalente frente al virus del papiloma humano",
+        "categoria":{
+            "nombre":"Vacunas para niños y adolescentes",
+            "id":"niños"
+        },
         "cantidad": 2
     },
     {
@@ -47,6 +59,10 @@
         "titulo": "HEXAXIM",
         "imagen": "./imagenes/niños/Hexaxim-vacuna.jpg",
         "descripcion": "Difteria, tétanos, Pertusis, Hepatitis B, Haemófilis influenza, Poliomielitis",
+        "categoria":{
+            "nombre":"Vacunas para niños y adolescentes",
+            "id": "niños"
+        },
         "cantidad": 0
     },
     {
@@ -54,6 +70,10 @@
         "titulo": "MENACTRA",
         "imagen": "./imagenes/niños/MENACTRA.jpg",
         "descripcion": "Vacuna antimeningocóccica polisacárda contra serogrupos A, C y W-135, conjugada con toxoide diftérico",
+         "categoria": {
+            "nombre":"Vacunas para niños y adolescentes",
+            "id":"niños"
+         },
         "cantidad": 4
     },
     {
@@ -61,6 +81,11 @@
         "titulo": "MENVEO",
         "imagen": "./imagenes/niños/Menveo.jpg",
         "descripcion": "Vacuna antimeningocócica contra serogrupos A, C, W-135 e Y",
+        "categoria":{
+            "nombre":"Vacunas para niños y adolescentes",
+            "id": "niños"
+
+        },
         "cantidad": 1
     },
     {
@@ -68,6 +93,10 @@
         "titulo": "NEUMOVAX-23",
         "imagen": "./imagenes/adultos/Neumovax-23.jpg",
         "descripcion": "Vacuna antineumocóccica 23",
+        "categoria":{
+            "nombre":"Vacunas para adultos",
+            "id": "adultos"
+        },
         "cantidad": 1
     },
     {
@@ -75,6 +104,10 @@
         "titulo": "PREVENAR",
         "imagen": "./imagenes/niños/PREVENAR 13.jpg",
         "descripcion":"Vacuna antineumocóccina conjugada 13 valente",
+        "categoria":{
+            "nombre":"Vacunas para niños y adolescentes",
+            "id": "niños"
+        },
         "cantidad": 5
     },
     {
@@ -118,7 +151,7 @@
         "descripcion": "Vacuna anti varicela",
         "categoria": {
             "nombre": "Vacunas para niños y adolescentes",
-            "id": "niños"
+            "id": "14"
         },
         "cantidad": 12
     },
