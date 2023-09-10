@@ -142,7 +142,7 @@ function usuarioLogeado(e) {
 
 
               
-/*$('#form').prettyValidate({
+$('#form').prettyValidate({
     ajax: true, 
     valid: function() {
       $('#form input[type="submit"]').attr('disabled', true); 
@@ -154,7 +154,7 @@ function usuarioLogeado(e) {
 
   $(".account-exists, .account-none").click(function(){
     $(".create-profile, .login-user").toggleClass('activated');
-  });*/
+  });
 
 
 
