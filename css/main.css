@@ -193,9 +193,9 @@ main {
     
 }
 .redes {
-    position: fixed;
-    right: 30px;
-    top: 120px;
+    position:fixed;
+    right: 20px;
+    top: 100px;
   }
   .redes img {
     width: 50px;
